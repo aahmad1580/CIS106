@@ -1,0 +1,28 @@
+M3P1 - Stock Investment
+
+Input | Processing | Output
+Stock ticker, number of shares, cost per share | amount_invested = shares * cost_per_share | Stock ticker, amount invested
+
+
+M3P2 - Exam Points
+
+Input | Processing | Output
+Last name, midterm score, final score | total_points = midterm * 0.40 + final * 0.60 | Last name, total exam points
+
+
+M3P3 - Split Job Payment
+
+Input | Processing | Output
+Amount received | amount_each = amount_received / 3 | Amount each person receives
+
+
+M3P4 - Auto Discount
+
+Input | Processing | Output
+Make, model, MSRP, discount as a decimal | amount_off = msrp * discount_percent; discounted_price = msrp - amount_off | Make, model, MSRP, discount percent, amount off, discounted price
+
+
+M3P5 - Circle Area and Perimeter
+
+Input | Processing | Output
+Radius | area = 3.14 * radius * radius; perimeter = 2 * 3.14 * radius | Area, perimeter
