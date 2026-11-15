@@ -1,0 +1,12 @@
+Garcia
+I
+12
+Wilson
+O
+15
+Nguyen
+I
+9
+Brown
+O
+6

@@ -1,0 +1,38 @@
+M8P1 - Five Years of Compound Interest
+Input: Principal amount and annual interest rate as a decimal
+Processing: Start with the principal as the balance. Repeat for years 1
+            through 5. Calculate interest = beginning balance * rate.
+            Add the interest to the balance for the next year. After the
+            loop, subtract the original principal from the final balance.
+Output: Year, beginning balance, ending balance, and total interest earned
+
+M8P2 - Fibonacci Sequence
+Input: None
+Processing: Start with two values of 1. Repeat 20 times. Display the first
+            value, add the two values, and shift to the second value and sum.
+Output: The first 20 Fibonacci numbers, starting with 1 and 1
+
+M8P3 - Employee Bonuses
+Input: Employee last names and salaries from M8P3_Employees.txt
+Processing: Read each name and its salary. Use 20% for salaries of at
+            least $100,000, 15% for exactly $50,000, and 10% otherwise.
+            Multiply salary by the bonus rate and add the bonus to the total.
+Output: Each employee's last name, salary, and bonus, then total bonuses paid
+
+M8P4 - Order Totals
+Input: Item names, quantities, and unit prices from M8P4_Orders.txt
+Processing: Read each item, quantity, and price. Multiply quantity by price
+            for the extended price. Add it to the running total and add one
+            to the order count. Divide the total by the count if there are
+            any orders. If the file is empty, show an average of $0.00.
+Output: Each item, quantity, price, and extended price, then the total of
+        extended prices, number of orders, and average order
+
+M8P5 - Student Tuition
+Input: Student last names, district codes, and credits from M8P5_Students.txt
+Processing: Read each student's information. Use $250 per credit for I
+            (in district) and $500 for O (out of district). Multiply credits
+            by the rate, add the tuition to the running total, and count the
+            student.
+Output: Each student's last name, credits, and tuition owed, then total
+        tuition owed and number of students

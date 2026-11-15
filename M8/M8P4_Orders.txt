@@ -1,0 +1,12 @@
+Notebook
+10
+4.50
+Binder
+5
+8.00
+Pencil
+20
+0.75
+Folder
+4
+2.00
