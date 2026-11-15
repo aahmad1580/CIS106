@@ -1,0 +1,42 @@
+M7P1 - Odd Numbers
+Input: None
+Processing: Start at 1. While the number is at most 25, display it and add 2.
+Output: Odd numbers from 1 through 25
+
+M7P2 - Number Sequence
+Input: Start value, stop value, increment
+Processing: Start at the given start value. For a positive increment, repeat
+            while the number is at most the stop value. For a negative
+            increment, repeat while it is at least the stop value. Display
+            the current number and add the increment on each pass. If the
+            increment is zero, display a message instead of looping.
+Output: Sequence of numbers, or a message if the increment is zero
+
+M7P3 - Exam Averages
+Input: Yes/No response, student last name, two exam scores
+Processing: Ask whether to start. While the answer is Yes, read the student
+            data, calculate (exam1 + exam2) / 2, add 1 to the student count,
+            display the results, and ask whether to enter another student.
+Output: Each student's last name and average, then the student count
+
+M7P4 - Employee Pay
+Input: Yes/No response, employee last name, hours worked, hourly pay rate
+Processing: Ask whether to start. While the answer is Yes, read employee data.
+            If hours exceed 40, gross pay = 40 * rate + (hours - 40) * rate * 1.5.
+            Otherwise, gross pay = hours * rate. Add gross pay to the total
+            and add 1 to the employee count. Display the employee's results
+            and ask whether to enter another employee. After the loop, divide
+            total gross pay by the count if the count is above zero.
+            Display 0.00 for the average if no employees were entered.
+Output: Each employee's last name and gross pay, then total gross pay,
+        employee count, and average pay
+
+M7P5 - Order Discounts
+Input: Yes/No response, quantity, price per item
+Processing: Ask whether to start. While the answer is Yes, read an order
+            and calculate extended price = quantity * price, rounded to cents.
+            Use 25% if extended price exceeds 10000.00, otherwise use 10%.
+            Calculate discount = extended price * discount rate and
+            order total = extended price - discount. Add the discount to
+            the running sum, display the results, and ask about another order.
+Output: Extended price, discount, and total for each order, then total discounts
