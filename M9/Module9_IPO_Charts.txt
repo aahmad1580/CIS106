@@ -1,0 +1,33 @@
+M9P1 - Item Totals
+Input: Quantity, price per item, Yes/No signal
+Processing: Pass quantity and price to compute_total. Multiply quantity by price.
+Apply a 10% discount when the result is greater than $10,000. Return the result.
+Repeat until No and sum the returned extended prices after discounts.
+Output: Quantity, price, extended price for each item, total extended price
+Assumption: The PDF's "$10,0000.00" typo means $10,000.00.
+
+M9P2 - Batting Averages
+Input: Last name, hits, at bats, Yes/No signal
+Processing: Pass hits and at bats to compute_batting_average. Return hits / at_bats.
+Return 0.0 when at bats is zero. Count players. Repeat until No.
+Output: Last name, batting average, number of players
+
+M9P3 - Trip Miles Per Gallon
+Input: Destination city, miles travelled, gallons used, Yes/No signal
+Processing: Require gallons greater than zero. Pass miles and gallons to compute_mpg.
+Return miles / gallons. Count trips. Repeat until No.
+Output: Destination city, miles travelled, miles per gallon, number of trips
+
+M9P4 - Employee Gross Pay
+Input: Last name, job code (L/A/J), hours worked, Yes/No signal
+Processing: Pass job code to determine_pay_rate. Return $25 for L, $30 for A,
+or $50 for J. Pay the first 40 hours at the regular rate and additional hours
+at 1.5 times the rate. Sum gross pay. Repeat until No.
+Output: Last name, gross pay for each employee, total gross pay
+
+M9P5 - Student Tuition
+Input: Last name, credit hours, district code (I/O), Yes/No signal
+Processing: Pass credit hours and district code to compute_tuition.
+Return credits * $250 for I or credits * $550 for O.
+Sum tuition owed. Repeat until No.
+Output: Last name, tuition owed for each student, total tuition owed
