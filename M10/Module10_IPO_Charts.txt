@@ -1,0 +1,24 @@
+M10P1 - Sales Forecast
+Input: Last name, month, sales, Yes/No signal
+Processing: Apply the monthly rate to sales using forecast_sales. Repeat while the response is Yes.
+Output: Next month sales forecast
+
+M10P2 - Room Paint
+Input: Room length, width, height, Yes/No signal
+Processing: Compute wall area and ceiling or floor area in separate functions. Divide each by 50. Repeat while the response is Yes.
+Output: Gallons for walls and gallons for one ceiling or floor
+
+M10P3 - Vehicle Prices
+Input: Make, model, electric vehicle code, MSRP, Yes/No signal
+Processing: Use the electric discount first, then the make and model rates. Apply 7% tax to the discounted MSRP. Sum original and final prices. Repeat while the response is Yes.
+Output: Each out-the-door price, total MSRP, total sales price
+
+M10P4 - Train Tickets
+Input: Last name, miles from downtown Chicago, Yes/No signal
+Processing: Use ticket_price to select the fare based on distance. Sum the fares. Repeat while the response is Yes.
+Output: Each ticket price and total ticket sales
+
+M10P5 - Home Assessment
+Input: County, market value, Yes/No signal
+Processing: Multiply market value by the county rate in assess_home. Sum both values. Repeat while the response is Yes.
+Output: Each assessed value, total market value, total assessed value
