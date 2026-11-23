@@ -1,0 +1,24 @@
+M11P1 - Discount
+Input: Quantity, unit price, discount rate as a percent
+Processing: Multiply quantity by unit price. Apply the percentage to the subtotal. Return the discount amount and the subtotal after the discount.
+Output: Quantity, unit price, discount amount, discounted price
+
+M11P2 - Exam Scores
+Input: Student last name, three exam scores
+Processing: Add the three scores and divide the sum by three. Return the total and the average.
+Output: Last name, total points, average score
+
+M11P3 - Sales Report
+Input: Salesperson last name, sales
+Processing: Use 10% commission above $100,000 and 5% otherwise. Return commission and next year's target, which the prompt defines as 5% of sales.
+Output: Last name, commission, next year's target
+
+M11P4 - Bowling Averages
+Input: Bowler last name, three game scores, handicap per game
+Processing: Average the three scores and add the handicap to that average. Return both averages.
+Output: Last name, average score, average score with handicap
+
+M11P5 - Item Total and Tax
+Input: Quantity, unit price
+Processing: Multiply quantity by unit price and calculate tax at 7%. Store both values in global variables and display them in main.
+Output: Total before tax, tax
