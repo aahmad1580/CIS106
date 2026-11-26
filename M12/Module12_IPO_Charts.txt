@@ -1,0 +1,27 @@
+M12P1
+Input: List of ten last names
+Processing: Traverse the list forward and backward in separate functions.
+Output: Last names in original and reverse order
+
+M12P2
+Input: Lists of ten last names and matching exam scores
+Processing: Traverse both lists by the same index, forward and backward.
+Output: Last names with matching scores in original and reverse order
+
+M12P3
+Input: Student last names and scores from M12_Students.txt
+Processing: Load parallel lists. Start with the first score for both extremes.
+Compare each remaining score and update the highest and lowest indices.
+Output: Name and score for the highest and lowest exam scores
+
+M12P4
+Input: Player records from M12_Players.txt and last names from the keyboard
+Processing: Load and display parallel lists. Use a linear search for each
+entered name. Stop when the user presses Enter on a blank line.
+Output: All players and averages, followed by the entered player's match if found
+
+M12P5
+Input: Player records from M12_Players.txt and last names from the keyboard
+Processing: Follow M12P4. Display a message if the search reaches the end
+without a match.
+Output: All players and averages, each match, or Name not found

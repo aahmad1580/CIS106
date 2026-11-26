@@ -1,0 +1,10 @@
+Ahmad,88
+Lee,92
+Khan,79
+Garcia,85
+Patel,98
+Chen,90
+Brown,72
+Davis,83
+Nguyen,95
+Wilson,87
